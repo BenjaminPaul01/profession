@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Inconsolata', monospace;
+  /*font-weight: 100;*/
 }
 
 h1 {
@@ -13,7 +14,6 @@ h1 {
   padding-bottom: 10px;
   margin-bottom: 0;
   color: #151D3B;
-
 }
 
 h2 {
@@ -28,16 +28,15 @@ h3 {
   color: #064663;
 }
 
-hr{
-
+hr {
   width: 5%;
   border-style: none;
   border-top: 10px dotted #B8FFF9;
-
 }
 
-p{
+p {
   font-size: 1.5rem;
+  line-height: 2;
 }
 
 /**** CLASS SELECTORS ****/
@@ -45,28 +44,25 @@ p{
   position: relative;
   text-align: center;
   background-color: #EFFFFD;
-
 }
 
-.middle-container-1{
-    text-align: center;
-    padding-top: 50px;
+.middle-container-1 {
+  text-align: center;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.middle-container-2{
+.middle-container-2 {
   text-align: center;
 }
 
-
-.middle-container-3{
+.middle-container-3 {
   text-align: center;
-
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
-.bottom-container{
+.bottom-container {
   text-align: center;
   background-color: #EFFFFD;
   padding-top: 40px;
@@ -95,75 +91,75 @@ p{
   top: 15px;
 }
 
-.special-para{
+.special-para {
   font-family: 'BIZ UDMincho', serif;
   font-size: 1.5rem;
   margin-top: 0;
   color: #151D3B;
-
 }
 
-.profile-para{
+.profile-para {
   width: 40%;
-
-  margin: 0 auto 0 auto;
-  font-weight: bolder;
-}
-
-.contact-me-para{
-  width: 40%;
-
   margin: 0 auto 0 auto;
 }
 
-.footer-para{
+.contact-me-para {
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+
+.footer-para {
   font-size: 1rem;
   padding-top: 50px;
 }
 
-.skill-row-1{
+.skill-row-1 {
   width: 60%;
   /*background-color: pink;*/
   margin: 80px auto 100px auto;
   text-align: left;
+
 }
 
-.skill-row-2{
+.skill-row-2 {
   width: 60%;
   /*background-color: green;*/
   margin: 80px auto 100px auto;
   text-align: left;
+
 }
 
-.skill-row-3{
+.skill-row-3 {
   width: 60%;
   /*background-color: grey;*/
   margin: 80px auto 80px auto;
   text-align: left;
+
 }
 
-.skill-image-dimension{
+.skill-image-dimension {
   border-radius: 50%;
   width: 180px;
   height: 180px;
 }
 
-.cook-img{
-  float:left;
+.cook-img {
+  float: left;
   padding-right: 50px;
+  /*margin-right: 50px;*/
 }
 
-.sand-img{
+.sand-img {
   float: right;
   padding-left: 50px;
 }
 
-.tricycle-img{
-  float:left;
+.tricycle-img {
+  float: left;
   padding-right: 50px;
 }
 
-.my-button{
+.my-button {
   background-color: #4FD3C4;
   border: none;
   color: white;
@@ -176,13 +172,33 @@ p{
   cursor: pointer;
   font-family: 'BIZ UDMincho', serif;
   font-size: 1.2rem;
-
 }
 
-.footer-link{
+.my-button:hover{
+
+  color: #FF6B6B;
+}
+
+.footer-link {
   font-size: 1.5rem;
   text-decoration: none;
   color: #4FD3C4;
   padding: 0 100px 0 100px;
+  font-weight: bolder;
+}
+
+
+.footer-link:hover {
+
+  color: #066163;
+  font-weight: lighter;
 
 }
+
+.wrap-around{
+  overflow: hidden;
+}
+
+/*.clear-text{
+  clear: right;
+}*/
